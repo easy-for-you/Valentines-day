@@ -2,7 +2,7 @@ body {
   margin: 0;
   /*font-family: "Kaushan Script", cursive;*/
   font-family: 'Comfortaa', cursive;
-  font-size: calc(1em + 4vw);
+  font-size: calc(1em + 1vw);
   line-height: 1.6;
 }
 
