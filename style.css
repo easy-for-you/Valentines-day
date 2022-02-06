@@ -40,28 +40,11 @@ header {
   justify-content: space-between;
 }
 
-.mail__link {
-  text-decoration: none;
-  color: black;
-  transition: color 0.2s linear;
-}
-
-.mail__link:hover {
-  color: white;
-}
-
 /*Info*/
 .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-/* Avatar*/
-.avatar {
-  width: 200px;
-  border: 1px solid black;
-  border-radius: 20px;
 }
 
 /*Main*/
@@ -70,25 +53,4 @@ main {
   height: 100vh;
   background: url(background.jpg) center no-repeat;
   background-size: cover;
-}
-
-/*Footer*/
-
-footer {
-  display: flex;
-  justify-content: flex-end;
-}
-footer a,
-span {
-  margin: 0 10px;
-}
-
-.footer__style {
-  text-decoration: none;
-  color: black;
-  transition: color 0.2s linear;
-}
-
-.footer__style:hover {
-  color: white;
 }
