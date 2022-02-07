@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  /*font-family: "Kaushan Script", cursive;*/
+  font-family: 'Comfortaa', cursive;
+  font-size: calc(1em + 1vw);
+  line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 80px;
+}
+
+/*Container*/
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 0 0 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Info*/
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Main*/
+main {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: url(background.jpg) center no-repeat;
+  background-size: cover;
+}
